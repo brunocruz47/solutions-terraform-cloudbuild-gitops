@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "propane-shell-319015-tfstate"
     prefix = "env/dev"
   }
 }
